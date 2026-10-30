@@ -342,7 +342,6 @@ def render(data: dict) -> str:
 <main>
 <a class="back" href="index.html">← Home</a>
 <div class="resume-actions">
-<a class="pdf" href="resume.pdf">Download PDF</a>
 </div>
 <h1 style="margin-top:24px">{html.escape(data['name'])}</h1>
 <p class="sub">{html.escape(data['title'])}</p>
